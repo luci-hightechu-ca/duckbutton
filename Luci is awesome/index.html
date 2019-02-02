@@ -1,0 +1,33 @@
+<html>
+    <head>
+            <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+    <style>
+        .purple-text{
+            color: #6600ff;
+         font-family: 'ZCOOL KuaiLe', cursive;;
+        }
+        .blue-text{
+            color: #33adff;
+            font-family: 'ZCOOL KuaiLe', cursive;
+        }
+        img{width: 100px; display: none;}
+    </style>
+        <h2 class="purple-text">luci is awesome</h2>
+    </head>
+    <body>
+        <img src="http://pngimg.com/uploads/rubber_duck/rubber_duck_PNG53.png" id="myimage">
+        <p class="blue-text">idk what to write here but ya I have a dog so that makes me awesome by default.</p>
+        <button onclick="press()">button</button>
+        <script>
+            function press() {
+                var x = document.getElementById("myimage");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+        </script>
+    </body>
+
+</html>
